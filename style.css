@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+    font-family: 'Monda', sans-serif;
+}
+body {
+    text-align: center;
+}
+
+#mainheading {
+    background-color: teal;
+    color: white;
+}
+
+#timer > h1{
+    display:  inline-block;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+#lastRecord > h1{
+    display:  inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    width: 100px;
+}
+
+#timerControls > button {
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+}
+
+#startBtn {
+    background-color: lightgreen;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#pauseBtn {
+    background-color: red;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#resetBtn {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#main {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-radius: 10px;
+}
